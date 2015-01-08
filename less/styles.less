@@ -1,0 +1,160 @@
+// best not touch this
+.km-flat {
+  .km-scroller-pull {
+    background: @baseActive !important;
+  }
+  .km-state-active {
+    background-color: @baseActive;
+  }
+  .km-button {
+    background-color: @buttonBackground;
+    color: @buttonText;
+  }
+  .km-view {
+    .km-navbar {
+      background-color: @navBarBackground;
+      color: @navBarText;
+      .km-view-title > * {
+        color: @navBarText;
+      }
+      .km-button {
+        border: @navBarButtonBorder;
+        background-color: @navBarButtonBackground;
+        color: @navBarButtonText;
+        &:hover {
+          background-color: @navBarButtonHoverBackground;
+          color: @navBarButtonHoverText;
+        }
+        .km-text {
+          color: @navBarButtonText;
+        }
+        &.km-state-active {
+          background-color: @navBarButtonActive;
+          color: @navBarButtonActiveText;
+        }
+      }
+    }
+    .km-content {
+      background-color: @contentBackground;
+      color: @contentText;
+      .km-list {
+        > li {
+          .km-state-active {
+            background-color: @listviewActive;
+          }
+          background-color: @listviewBackground;
+          &:first-child {
+            border-top-width: 1px;
+          }
+          &:last-child {
+            border-bottom-width: 1px;
+          }
+          .km-switch .km-switch-container {
+            background-color: @switchBackground;
+          }
+        }
+        .km-state-active {
+          .km-listview-link {
+            background-color: @listviewActive;
+            color: #fff;
+          }
+          &:after {
+            color: #fff;
+          }
+        }
+      }
+      .km-scrollview {
+        background-color: #fff;
+      }
+      .km-button {
+        background-color: @buttonBackground;
+        &.km-state-active {
+          background-color: @buttonActive;
+          color: @buttonActiveText;
+        }
+      }
+      .km-listgroup {
+        .km-group-title {
+          color: #e5e5e5;
+          .km-text {
+            color: #999;
+          }
+        }
+      }
+      .km-switch {
+        .km-switch-container {
+          color: @switchText;
+          .km-switch-handle {
+            color: @switchHandle;
+          }
+          .km-switch-label-on {
+            background-color: @switchBackground;
+          }
+        }
+      }
+    }
+    .km-tabstrip {
+      .km-button {
+        background-color: @tabStripBackground;
+        &.km-state-active {
+          background-color: @tabStripActive;
+        }
+      }
+    }
+  }
+  .km-drawer {
+    background-color: @drawerBackground;
+    .km-navbar {
+      background-color: @drawerNavBarBackground;
+      color: @drawerNavBarText;
+      .km-view-title > * {
+        color: @drawerNavBarText;
+      }
+    }
+  }
+  .km-actionsheet {
+    &>li {
+      border-color: @actionSheetDivider;
+      border-style: solid;
+      border-width: 0 0px 1px 0px;
+      &>a {
+        background-color: @actionSheetBackground;
+        color: @actionSheetColor;
+        &:hover {
+          background-color: @actionSheetHover;
+        }
+      }
+    }
+  }
+  .km-loader.km-widget::before {
+    background: @spinner;
+  }
+  .km-switch-handle {
+    background-color: @switchHandle;
+  }
+  .k-slider-selection {
+    background-color: @switchHandle;
+  }
+  .km-switch-background {
+    background-color: @switchBackground;
+  }
+  .km-touch-scrollbar {
+    background-color: @scrollbar;
+  }
+  .km-pages {
+    .km-current-page {
+      background-color: @base;
+    }
+  }
+}
+
+.km-widgets {
+  &:after, &:before {
+    content: "\e0c5";
+  }
+}
+.km-hamburger {
+  &:after, &:before {
+    content: "\E077"; 
+  }
+}

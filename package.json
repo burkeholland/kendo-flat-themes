@@ -1,0 +1,25 @@
+{
+  "name": "kendo-flat-themes",
+  "version": "1.0.0",
+  "description": "A set of themes to extend the default Kendo UI Mobile flat theme",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burkeholland/kendo-flat-themes"
+  },
+  "keywords": [
+    "kendo",
+    "kendo-ui",
+    "kendo-ui-mobile",
+    "phonegap"
+  ],
+  "author": "Burke Holland <burkeholland@gmail.com> (http://a.shinynew.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burkeholland/kendo-flat-themes/issues"
+  },
+  "homepage": "https://github.com/burkeholland/kendo-flat-themes",
+  "devDependencies": {
+    "gulp-copy": "0.0.2"
+  }
+}
